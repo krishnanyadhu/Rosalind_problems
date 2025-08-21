@@ -14,3 +14,6 @@ def rabbits(n, k):
     for i in range(3, n+1):
         dp[i] = dp[i-1] + k*dp[i-2]
     return dp[n]
+
+#exapmple
+#rabbits(5, 3)
